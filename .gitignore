@@ -1,0 +1,14 @@
+data/raw/
+*.tif
+*.shp
+*.gpkg
+venv/
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+dist/
+.env
+.DS_Store
+Thumbs.db
+.vscode/
