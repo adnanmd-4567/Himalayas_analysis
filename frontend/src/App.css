@@ -45,10 +45,6 @@ body {
   overflow: hidden;
 }
 
-/* ==========================================================================
-   Header -- brand, search, view tabs
-   ========================================================================== */
-
 .app__header {
   display: flex;
   align-items: center;
@@ -64,6 +60,7 @@ body {
   font-weight: 600;
   font-size: 1.25rem;
   margin: 0 0 0.15rem 0;
+  color: var(--color-ink);
 }
 
 .app__header-text p {
@@ -101,11 +98,6 @@ body {
   background: rgba(237, 237, 227, 0.1);
   color: var(--color-ink);
 }
-
-/* ==========================================================================
-   Toolbar -- scenario chips, sits in normal document flow (never floats
-   over the map, so it can never overlap the legend or side panel)
-   ========================================================================== */
 
 .app__toolbar {
   flex-shrink: 0;
@@ -194,10 +186,6 @@ body {
   width: 100%;
 }
 
-/* ==========================================================================
-   Main area -- map or rankings fill all remaining space
-   ========================================================================== */
-
 .app__body {
   flex: 1;
   position: relative;
@@ -216,10 +204,6 @@ body {
   height: 100%;
   color: var(--color-ink-dim);
 }
-
-/* ==========================================================================
-   Legend -- fixed bottom-left, collapsible, compact
-   ========================================================================== */
 
 .legend {
   position: absolute;
@@ -263,15 +247,9 @@ body {
   flex-shrink: 0;
 }
 
-/* Selected district outline gets a glow so it reads clearly against dark tiles */
 .leaflet-interactive.district-selected {
   filter: drop-shadow(0 0 5px rgba(244, 193, 91, 0.9));
 }
-
-/* ==========================================================================
-   Side panel -- district detail, slides in from the right, closes only
-   via its own close button (never a click-outside backdrop)
-   ========================================================================== */
 
 .side-panel {
   position: absolute;
@@ -398,10 +376,6 @@ body {
   line-height: 1.35;
 }
 
-/* ==========================================================================
-   Search
-   ========================================================================== */
-
 .search {
   position: relative;
   width: 200px;
@@ -454,10 +428,6 @@ body {
   color: var(--color-ink-dim);
   font-size: 0.72rem;
 }
-
-/* ==========================================================================
-   Leaderboard
-   ========================================================================== */
 
 .leaderboard {
   padding: 1.25rem 1.5rem;
@@ -516,10 +486,6 @@ body {
 .leaderboard__table tbody tr:hover {
   background: rgba(237, 237, 227, 0.05);
 }
-
-/* ==========================================================================
-   Mobile responsiveness
-   ========================================================================== */
 
 @media (max-width: 700px) {
   .app__header {
@@ -581,10 +547,6 @@ body {
     padding: 0.4rem 0.4rem;
   }
 }
-
-/* ==========================================================================
-   Help popover
-   ========================================================================== */
 
 .help {
   position: relative;
