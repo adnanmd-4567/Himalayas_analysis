@@ -519,9 +519,14 @@ body {
 
   .scenarios__advanced-panel,
   .help__popover {
-    left: 1rem;
-    right: 1rem;
-    width: auto;
+    position: fixed !important;
+    top: auto !important;
+    bottom: 1rem !important;
+    left: 1rem !important;
+    right: 1rem !important;
+    width: auto !important;
+    max-height: 60vh;
+    overflow-y: auto;
   }
 
   .side-panel {
