@@ -11,3 +11,5 @@ jobs:
     steps:
       - name: Ping backend
         run: curl -f https://himalayas-analysis.onrender.com/
+
+# keep-alive
