@@ -25,7 +25,7 @@ app.add_middleware(
 risk_gdf = gpd.read_file(RISK_PATH)
 events_gdf = gpd.read_file(EVENTS_PATH)
 
-@app.get("/")
+@app.api_route("/", methods=["GET", "HEAD"])
 def root():
     return {
         "status": "ok",
