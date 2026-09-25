@@ -1,5 +1,7 @@
 # Himalaya Flood & Landslide Risk Analysis
 
+**Live site:** [Himalaya Flood & Landslide Risk Analysis](https://himalayas-analysis.vercel.app/)
+
 An interactive risk-mapping tool covering the Himalayan arc (Nepal and the northern Indian states of Himachal Pradesh, Uttarakhand, Sikkim, and Darjeeling/Kalimpong). As glaciers across the Himalaya retreat under a warming climate, downstream communities face rising flood and landslide risk. This project scores every district in the region on a composite risk index built from real terrain, hydrology, and historical disaster data — not just a static map, but a tool you can interrogate under different real-world scenarios.
 
 ## What it does
